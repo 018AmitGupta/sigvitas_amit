@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 900px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul, .organization ul, .learn-more ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li, .organization ul li, .learn-more ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a, .organization ul li a, .learn-more ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar nav ul li a.active {
+    color: #007bff;
+}
+
+.organization, .learn-more {
+    margin-top: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header .auth a, header .auth button {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007bff;
+    border: none;
+    background: none;
+    font-size: 1em;
+}
+
+header .auth button {
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .text-compare {
+    display: block;
+} */
+
+.compare-section {
+    display: flex;
+    gap: 20px;
+    height: 80%;
+}
+
+.compare-box {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.compare-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.compare-header a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compare-header a.active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+ textarea {
+    width: 96%;
+    height: 570px;
+    padding: 10px;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: none;
+}
+
+.url-compare input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.fontstyle{
+    width: 90%;
+    height: 20%;
+    float: left;
+}
